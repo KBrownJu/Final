@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Qiwen Ju</title>
+</head>
+<body>
+
+<div class="Moblie">
+
+<div id="Final1">
+
+<div id="RISD_WINTER_2020_WEB_DESIGN1">
+ <span>RISD WINTER 2020 WEB DESIGN</span>
+  </div>
+
+<div id="QIWEN_JU1">
+ <a class="QIWEN_JU" href="Qiwen_Ju_05.html">
+ <span>QIWEN JU</span>
+ </a>
+ </div>
+
+<div id="PROJECT_ONE1">
+ <a class="PROJECT_ONE" href="Qiwen_Ju_02.html">
+ <span>PROJECT ONE</span></a>
+ </div>
+
+<div id="PROJECT_TWO1">
+ <a class="PROJECT_TWO" href="Qiwen_Ju_03.html">
+ <span>PROJECT TWO</span>
+ </a>
+ </div>
+
+<div id="PROJECT_THREE1">
+ <a class="PROJECT_THREE" href="Qiwen_Ju_04.html">
+ <span>PROJECT THREE</span>
+ </a>
+ </div>
+
+<div id="RISD_WINTER_2020_WEB_DESIGN_t1">
+ <span>RISD WINTER 2020 WEB DESIGN</span>
+  </div>
+
+</div>
+</div>
+
+<div class="Web">
+<div id="Final">
+	<div id="RISD_WINTER_2020_WEB_DESIGN">
+		<span>RISD WINTER 2020 WEB DESIGN</span>
+	</div>
+	<div id="QIWEN_JU">
+		<a class="QIWEN_JU" href="Qiwen_Ju_05.html">
+		<span>QIWEN JU</span>
+	  </a>
+	</div>
+	<div id="PROJECT_ONE">
+    <a class="PROJECT_ONE" href="Qiwen_Ju_02.html">
+		<span>PROJECT ONE</span>
+		</a>
+	</div>
+	<div id="PROJECT_THREE">
+		<a class="PROJECT_THREE" href="Qiwen_Ju_04.html">
+		<span>PROJECT THREE</span>
+	  </a>
+	</div>
+	<div id="PROJECT_TWO">
+		<a class="PROJECT_TWO" href="Qiwen_Ju_03.html">
+		<span>PROJECT TWO</span>
+	  </a>
+	</div>
+	<div id="____HELLO">
+		<span>    HELLO</span>
+	</div>
+	<div id="MOVE_THE__BOX">
+		<span>MOVE THE <br/>BOX</span>
+	</div>
+	<svg class="___1" id="box-3">
+		<rect fill="rgba(255,255,255,1)" stroke="rgba(0,0,0,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="___1" rx="0" ry="0" x="0" y="0" width="320" height="480">
+		</rect>
+	</svg>
+	<svg class="___2" id="box-1">
+		<rect fill="rgba(255,255,255,1)" stroke="rgba(0,0,0,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="___2" rx="0" ry="0" x="0" y="0" width="960" height="240">
+		</rect>
+	</svg>
+	<svg class="___3" id="box-2">
+		<rect fill="rgba(255,255,255,1)" stroke="rgba(0,0,0,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="___3" rx="0" ry="0" x="0" y="0" width="720" height="240">
+		</rect>
+	</svg>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+	var box1 = $('#box-1');
+	var box2 = $('#box-2');
+	var box3 = $('#box-3');
+	var x1 = 80;
+	var x2 = 80;
+	var t1 = 160;
+	box1.mousedown(function(e) {
+		var box = box1;
+	    // e.pageX
+	    var positionDiv = $(this).offset();
+	    var distenceX = e.pageX - positionDiv.left;
+	    var distenceY = e.pageY - positionDiv.top;
+	    //alert(distenceX)
+	    // alert(positionDiv.left);
+
+	    $(document).mousemove(function(e) {
+	        var x = e.pageX - distenceX;
+	        var y = e.pageY - distenceY;
+
+	        if (x < 0) {
+	            x = 0;
+	        } else if (x > $(document).width() - box.outerWidth(true)) {
+	            x = $(document).width() - box.outerWidth(true);
+
+	        }
+	        console.log(x);
+
+	        if (y < 0) {
+	            y = 0;
+	        } else if (y > $(document).height() - box.outerHeight(true)) {
+	            y = $(document).height() - box.outerHeight(true);
+	        }
+	        if(x >= 240) {
+	        	x = 240;
+	        }
+	        box.css({
+	            'left': x + 'px',
+	            //'top': y + 'px'
+	        });
+	        //console.log(x1)
+	        if(x1 >= 470) {
+	        	x1 = 470;
+	        }
+	        if(x1 <= 80) {
+	        	x1 = 80;
+	        }
+
+	        if(t1 >= 250) {
+	        	t1 = 250;
+	        }
+	        if(t1 <= 160) {
+	        	t1 = 160;
+	        }
+	        if(x > 200) {
+	        	x1 = x1 - 50;
+	        	t1 = t1 - 10;
+	        } else {
+	        	x1 = x1 + 50;
+	        	t1 = t1 + 10;
+	        }
+	        if(t1 <= 160) {
+	        	t1 = 160;
+	        }
+
+	        if(x1 >= 480){
+	        	x1 = 480;
+	        }
+	        box2.css({'left': x1});
+	        box3.css({'top': t1});
+
+
+
+	    });
+
+	    $(document).mouseup(function() {
+	        $(document).off('mousemove');
+	    });
+	});
+	box2.mousedown(function(e) {
+		var box = box2;
+	    // e.pageX
+	    var positionDiv = $(this).offset();
+	    var distenceX = e.pageX - positionDiv.left;
+	    var distenceY = e.pageY - positionDiv.top;
+	    //alert(distenceX)
+	    // alert(positionDiv.left);
+
+	    $(document).mousemove(function(e) {
+	        var x = e.pageX - distenceX;
+	        var y = e.pageY - distenceY;
+
+	        if (x < 0) {
+	            x = 0;
+	        } else if (x > $(document).width() - box.outerWidth(true)) {
+	            x = $(document).width() - box.outerWidth(true);
+
+	        }
+	        console.log(x);
+
+	        if (y < 0) {
+	            y = 0;
+	        } else if (y > $(document).height() - box.outerHeight(true)) {
+	            y = $(document).height() - box.outerHeight(true);
+	        }
+	        if(x >= 480) {
+	        	x = 480;
+	        }
+	        box.css({
+	            'left': x + 'px',
+	            //'top': y + 'px'
+	        });
+	        //console.log(x1)
+	        if(x1 >= 470) {
+	        	x1 = 470;
+	        }
+	        if(x1 <= 80) {
+	        	x1 = 80;
+	        }
+
+	        if(t1 >= 250) {
+	        	t1 = 250;
+	        }
+	        if(t1 <= 160) {
+	        	t1 = 160;
+	        }
+	        if(x > 240) {
+	        	x1 = x1 - 15;
+	        	t1 = t1 - 10;
+	        } else {
+	        	x1 = x1 + 15;
+	        	t1 = t1 + 10;
+	        }
+	         if(x1 >= 240) {
+	        	x1 = 240;
+	        }
+	        if(t1 <= 160) {
+	        	t1 = 160;
+	        }
+	        box1.css({'left': x1});
+	        box3.css({'top': t1});
+
+
+
+	    });
+
+	    $(document).mouseup(function() {
+	        $(document).off('mousemove');
+	    });
+	});
+	box3.mousedown(function(e) {
+		var box = box3;
+	    // e.pageX
+	    var positionDiv = $(this).offset();
+	    var distenceX = e.pageX - positionDiv.left;
+	    var distenceY = e.pageY - positionDiv.top;
+	    //alert(distenceX)
+	    // alert(positionDiv.left);
+
+	    $(document).mousemove(function(e) {
+	        var x = e.pageX - distenceX;
+	        var y = e.pageY - distenceY;
+
+	        if (x < 0) {
+	            x = 0;
+	        } else if (x > $(document).width() - box.outerWidth(true)) {
+	            x = $(document).width() - box.outerWidth(true);
+
+	        }
+
+
+	        if (y < 0) {
+	            y = 0;
+	        } else if (y > $(document).height() - box.outerHeight(true)) {
+	            y = $(document).height() - box.outerHeight(true);
+	        }
+	        console.log(y);
+	        box.css({
+	            //'left': x + 'px',
+	            'top': 160 + y + 'px'
+	        });
+	        //console.log(x1)
+	        if(x1 >= 470) {
+	        	x1 = 470;
+	        	x2 = 80;
+	        }
+	        if(x1 <= 80) {
+	        	x1 = 80;
+	        	x2 = 470;
+	        }
+
+	        if(y > 0) {
+	        	x1 = x1 - 15;
+	        	x2 = x2 + 15;
+
+	        } else {
+	        	x1 = 240;
+	        	x2 = 80;
+
+	        }
+	        box1.css({'left': x1});
+	        box2.css({'left': x2});
+
+
+
+	    });
+
+	    $(document).mouseup(function() {
+	        $(document).off('mousemove');
+	    });
+	});
+</script>
+
+</body>
+</html>

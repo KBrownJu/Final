@@ -1,0 +1,186 @@
+	.mediaViewInfo {
+		--web-view-name: Qiwen Ju 03;
+		--web-view-id: Qiwen_Ju_03;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Qiwen_Ju_03;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Qiwen_Ju_03 {
+		position: absolute;
+		transform: translateX(-50%) translateY(-50%);
+		left: 50%;
+		top: 50%;
+		width: 1280px;
+		height: 800px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Qiwen Ju 03;
+		--web-view-id: Qiwen_Ju_03;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	#PROJECT_TWO {
+		position: absolute;
+		left: 80px;
+		top: 80px;
+		overflow: visible;
+		width: 184px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: HYRuiYiSongW;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+	#In_the_special_collection_of_t {
+		position: absolute;
+		left: 80px;
+		top: 160px;
+		overflow: visible;
+		width: 481px;
+		height: 480px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+	}
+	#PROJECT_THREE {
+		position: absolute;
+		left: 1066px;
+		top: 694px;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: HYRuiYiSongW;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	.PROJECT_THREE:link{
+		color: rgba(0,0,0,1);
+		text-decoration: none;
+	}
+	.PROJECT_THREE:visited{
+		color: rgba(0,0,0,1);
+		text-decoration: none;
+	}
+	.PROJECT_THREE:hover{
+		color: rgba(0,0,0,1);
+		text-decoration: none;
+	}
+	#MAIN_PAGE {
+		position: absolute;
+		left: 80px;
+		top: 694px;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: HYRuiYiSongW;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	.MAIN_PAGE:link{
+		color: rgba(0,0,0,1);
+		text-decoration: none;
+	}
+	.MAIN_PAGE:visited{
+		color: rgba(0,0,0,1);
+		text-decoration: none;
+	}
+	.MAIN_PAGE:hover{
+		color: rgba(0,0,0,1);
+		text-decoration: none;
+	}
+	#Final3 {
+		position: absolute;
+		transform: translateX(-50%) translateY(-50%);
+		left: 50%;
+		top: 50%;
+		width: 417px;
+		height: 736px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Qiwen Ju APP 04;
+		--web-view-id: Final;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	#MAIN_PAGE3 {
+		position: absolute;
+		left: 50px;
+		top: 659px;
+		overflow: visible;
+		width: 318px;
+		height: 27px;
+		text-align: center;
+		font-family: HYRuiYiSongW;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	#In_the_special_collection_of_t3 {
+		position: absolute;
+		left: 50px;
+		top: 127px;
+		overflow: visible;
+		width: 318px;
+		height: 480px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(0,0,0,1);
+	}
+	#PROJECT_TWO3 {
+		position: absolute;
+		left: 141.5px;
+		top: 50px;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: HYRuiYiSongW;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(0,0,0,1);
+	}
+	@media screen and (max-width: 1280px) {
+		.Web {
+			display: none;
+		}
+		.Mob {
+			display: block;
+		}
+	}
+	@media screen and (max-width: 417px) {
+		.Web {
+			display: none;
+		}
+		.Mob {
+			display: block;
+		}
+	}

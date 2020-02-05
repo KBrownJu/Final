@@ -1,0 +1,317 @@
+.mediaViewInfo {
+  --web-view-name: Qiwen Ju;
+  --web-view-id: Final;
+  --web-center-horizontally: true;
+  --web-center-vertically: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Final;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#Final {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  top: 50%;
+  width: 1280px;
+  height: 800px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: Qiwen Ju;
+  --web-view-id: Final;
+  --web-center-horizontally: true;
+  --web-center-vertically: true;
+  --web-enable-deep-linking: true;
+}
+#RISD_WINTER_2020_WEB_DESIGN {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  overflow: visible;
+  width: 422px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#QIWEN_JU {
+  position: absolute;
+  left: 1075px;
+  top: 80px;
+  overflow: visible;
+  width: 126px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+.QIWEN_JU:link{
+color: rgba(0,0,0,1);
+text-decoration: none;
+}
+.QIWEN_JU:visited{
+color: rgba(0,0,0,1);
+text-decoration: none;
+}
+.QIWEN_JU:hover{
+color: rgba(0,0,0,1);
+text-decoration: none;
+}
+#PROJECT_ONE {
+  position: absolute;
+  left: 80px;
+  top: 682px;
+  overflow: visible;
+  width: 173px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+.PROJECT_ONE:link{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+.PROJECT_ONE:visited{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+.PROJECT_ONE:hover{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+#PROJECT_THREE {
+  position: absolute;
+  left: 571px;
+  top: 682px;
+  overflow: visible;
+  width: 202px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+.PROJECT_THREE:link{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+.PROJECT_THREE:visited{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+.PROJECT_THREE:hover{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+#PROJECT_TWO {
+  position: absolute;
+  left: 320px;
+  top: 682px;
+  overflow: visible;
+  width: 184px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+.PROJECT_TWO:link{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+.PROJECT_TWO:visited{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+.PROJECT_TWO:hover{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+#____HELLO {
+  position: absolute;
+  left: 1074px;
+  top: 160px;
+  overflow: visible;
+  width: 127px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#MOVE_THE__BOX {
+  position: absolute;
+  left: 80px;
+  top: 240px;
+  overflow: visible;
+  width: 147px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+.___1 {
+  position: absolute;
+  overflow: visible;
+  width: 320px;
+  height: 480px;
+  left: 880px;
+  top: 160px;
+}
+.___2 {
+  position: absolute;
+  overflow: visible;
+  width: 960px;
+  height: 240px;
+  left: 240px;
+  top: 160px;
+}
+.___3 {
+  position: absolute;
+  overflow: visible;
+  width: 720px;
+  height: 240px;
+  left: 80px;
+  top: 320px;
+}
+
+#Final1 {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  top: 50%;
+  width: 417px;
+  height: 736px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: Qiwen Ju APP 01;
+  --web-view-id: Final;
+  --web-center-horizontally: true;
+  --web-center-vertically: true;
+  --web-enable-deep-linking: true;
+}
+#RISD_WINTER_2020_WEB_DESIGN1 {
+  position: absolute;
+  left: 49px;
+  top: 50px;
+  overflow: visible;
+  width: 318px;
+  height: 38px;
+  text-align: center;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0,0,0,1);
+}
+#QIWEN_JU1 {
+  position: absolute;
+  left: 50px;
+  top: 262px;
+  overflow: visible;
+  width: 318px;
+  height: 27px;
+  text-align: center;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0,0,0,1);
+}
+#PROJECT_ONE1 {
+  position: absolute;
+  left: 145.5px;
+  top: 324px;
+  overflow: visible;
+  width: 127px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0,0,0,1);
+}
+#PROJECT_TWO1 {
+  position: absolute;
+  left: 141.5px;
+  top: 386px;
+  overflow: visible;
+  width: 135px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0,0,0,1);
+}
+#PROJECT_THREE1 {
+  position: absolute;
+  left: 134.5px;
+  top: 448px;
+  overflow: visible;
+  width: 149px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0,0,0,1);
+}
+#RISD_WINTER_2020_WEB_DESIGN_t1 {
+  position: absolute;
+  left: 49px;
+  top: 661px;
+  overflow: hidden;
+  width: 318px;
+  height: 25px;
+  text-align: center;
+  font-family: HYRuiYiSongW;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0,0,0,1);
+}
+@media screen and (max-width: 1280px) {
+  .Web {
+    display: none;
+  }
+  .Moblie {
+    display: block;
+  }
+}
+@media screen and (max-width: 417px) {
+  .Web {
+    display: none;
+  }
+  .Moblie {
+    display: block;
+  }
+}
